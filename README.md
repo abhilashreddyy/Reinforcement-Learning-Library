@@ -200,7 +200,7 @@ def train(self, replay_buffer, iterations, batch_size = 100, discount = 0.99, ta
 ### Step 12:
 - Back propagate all the Ctitic models from the loss calculated in step 11\
   \
-![image](/images/Step11.jpg)
+![image](/images/Step12.jpg)
 ```python
     self.critic_optmizer.zero_grad()
     critic_loss.backward()
